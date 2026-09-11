@@ -28,8 +28,8 @@ jobs:
           chmod +x gradlew || true
           ./gradlew assembleDebug || gradle assembleDebug || true
 
-      - name: Find and Upload APK
+      - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: '**/app/build/outputs/apk/debug/*.apk'
+          path: roomfinder/app/build/outputs/apk/debug/*.apk

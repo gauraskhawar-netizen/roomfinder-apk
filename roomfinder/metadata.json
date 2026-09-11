@@ -1,0 +1,6 @@
+{
+  "name": "RoomFinder",
+  "description": "A modern room rental marketplace connecting room owners and seekers with listings, search, and direct contact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
